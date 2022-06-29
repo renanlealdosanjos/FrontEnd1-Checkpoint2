@@ -1,0 +1,144 @@
+/*BANNER */
+
+.banner{
+    background-image: url(../img/Banner.png);
+    background-attachment:fixed;
+    height: 90vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h1{
+    text-align: left;
+    color:#E51B3E;
+    font-size: 4rem;
+    padding-top: 30vh;
+    font-weight: 900;
+    align-items: stretch;
+}
+
+.banner h4{
+    font-weight: 100;
+    color: white;
+    text-align: left;
+}
+
+.banner button{
+    color: white;
+    padding: 12px 55px;
+    margin: 20px 0;
+    border: 1px solid #33BB69;
+    background-color: #2d583e2c;
+    border-radius: 6px;
+}
+
+.banner button:hover{
+    transition: all 1s ease-in-out;
+    transform: scaleX(1.1);
+    background-color: #33BB69;
+    color: white;
+}
+
+/*CARDS */
+
+section{
+    padding-bottom: 15px;
+}
+
+section h2{
+    padding: 15px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.card{
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 20px #555555;
+
+    max-width: 300px;
+    height: 60vh;
+    border-radius: 8px;
+}
+
+.legenda{
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.legenda h5{
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+.legenda p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+    color: #464646;
+    padding-bottom: 15px;
+}
+.legenda a{
+    padding: 8px 0;
+}
+.legenda a{
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    background-color: #33BB69;
+}
+
+.legenda a:hover{
+    transition: all 1s ease-in-out;
+    transform: scaleX(1.05);
+    background-color: #E51B3E;
+}
+
+/*CARD IMAGEM*/
+
+#joker{
+    background-image: url("../img/BG1.png");
+}
+#after{
+    background-image: url("../img/BG2.png");
+}
+#capita{
+    background-image: url("../img/BG3.png");
+}
+#dora{
+    background-image: url("../img/BG4.png");
+}
+#guerra{
+    background-image: url("../img/BG5.png");
+}
+#thor{
+    background-image: url("../img/BG6.png");
+}
+
+
+/* RESPONSIVO */
+@media(max-width: 670px){
+    .card{
+        margin-top: 40px;
+    }
+}
+
+@media(min-width: 671px){
+    .card-conteiner{
+        gap: 10vh;
+    }
+}
