@@ -41,6 +41,49 @@ a{
     color: #E51B3E;
 }
 
+/*BANNER */
+
+.banner{
+    background-image: url(../img/Banner.png);
+    background-attachment:fixed;
+    height: 90vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h1{
+    text-align: left;
+    color:#E51B3E;
+    font-size: 4rem;
+    padding-top: 30vh;
+    font-weight: 900;
+    align-items: stretch;
+}
+
+.banner h4{
+    font-weight: 100;
+    color: white;
+    text-align: left;
+}
+
+.banner button{
+    color: white;
+    padding: 12px 55px;
+    margin: 20px 0;
+    border: 1px solid #33BB69;
+    background-color: #2d583e2c;
+    border-radius: 6px;
+}
+
+.banner button:hover{
+    transition: all 1s ease-in-out;
+    transform: scaleX(1.1);
+    background-color: #33BB69;
+    color: white;
+}
+
 /* FOOTER */
 
 footer{
